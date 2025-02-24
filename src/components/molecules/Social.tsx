@@ -1,4 +1,3 @@
-import React from "react";
 import { SocialInterface } from "../types";
 
 interface SocialProps {

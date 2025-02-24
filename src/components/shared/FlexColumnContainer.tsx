@@ -1,6 +1,6 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 
-const FlexColumnContainer = ({ children, style }: PropsWithChildren<{ style: { backgroundColor: string, color: string, textAlign: TextAlign } }>) => {
+const FlexColumnContainer = ({ children, style }: PropsWithChildren<{ style: { backgroundColor: string, color: string, textAlign: "center" | "left" | "right" } }>) => {
   return (
     <div
       style={{

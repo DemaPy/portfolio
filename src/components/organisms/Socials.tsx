@@ -1,4 +1,3 @@
-import React from "react";
 import { socials } from "../../constance/socials";
 import Social from "../molecules/Social";
 
