@@ -13,4 +13,4 @@ export const socials: SocialInterface[] = [
     label: "YouTube",
     url: "https://www.youtube.com/@v.demchenko",
   },
-];
+]
