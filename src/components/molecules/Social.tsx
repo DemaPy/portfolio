@@ -18,7 +18,7 @@ const Social = ({ social }: SocialProps) => {
       target="_blank"
       href={social.url}
     >
-      {social.icon}
+      <span dangerouslySetInnerHTML={{ __html: social.icon}} />
       {social.options.isShowLabel && social.label}
     </a>
   );
