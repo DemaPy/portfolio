@@ -10,7 +10,8 @@ const FlexColumnContainer = ({ children, style }: PropsWithChildren<{ style: { b
         justifyContent: "center",
         alignItems: "center",
         height: "100%",
-        paddingBlock: "1rem"
+        paddingBlock: "1rem",
+        paddingInline: ".4rem"
       }}
     >
       {children}
